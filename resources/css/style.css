@@ -1,4 +1,38 @@
 p {
-  color: mediumaquamarine;
+float: right;
+margin-left: 20px;
+}
+
+.left {
+  float: left;
+}
+
+a {
+margin-left: 50px;
+}
+
+.right {
+  margin-right: 20px;
+  float: right;
+}
+
+header {
+  border-bottom: 1px solid black;
+  position: fixed;
+width: 100%;
+  z-index: 2;
+  display: inline-block;
+  top: 0;
+}
+
+nav p {
+  color: blue;
+  font-size: 72px;
+}
+
+nav {
+  position: relative;
+  top: 80px;
+  z-index: 1;
 
 }
