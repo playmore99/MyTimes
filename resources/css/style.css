@@ -1,38 +1,33 @@
-p {
-float: right;
-margin-left: 20px;
-}
-
-.left {
-  float: left;
-}
-
-a {
-margin-left: 50px;
-}
-
-.right {
-  margin-right: 20px;
-  float: right;
+.container {
+  display: flex;
+  width: 100%
+  background-color: white;
+  align-items: center;
+  padding: 7px 0 7px 0;
 }
 
 header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 0;
   border-bottom: 1px solid black;
-  position: fixed;
-width: 100%;
-  z-index: 2;
-  display: inline-block;
-  top: 0;
 }
 
-nav p {
-  color: blue;
-  font-size: 72px;
+a {
+  color : black;
+  padding: 10px;
 }
 
-nav {
-  position: relative;
-  top: 80px;
-  z-index: 1;
+.nav {
+flex-shrink: 1;
+margin-right: 30px;
+font-size: 16px;
+}
 
+.time {
+flex-grow: 2;
+margin-left: 15px;
+color: mediumaquamarine;
+font-size: 16px;
 }
